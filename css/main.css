@@ -1,0 +1,55 @@
+.landing-page {
+    background: linear-gradient(90deg,#000000,#2D3436);
+}
+
+.button-register{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #81ecec;
+    border-color:#81ecec;
+}
+
+#home {
+    min-height: 100vh;
+}
+
+.is-vertical-center-mobile {
+    position: relative;
+    top: 15%;
+}
+
+.is-vertical-center-desktop {
+    position: relative;
+    top: 35% !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.heading {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#events {
+    background: linear-gradient(90deg,#000000,#2D3436);
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.section-heading {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 36px;
+    padding-bottom: 1rem;
+}
+
+.columns {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background: linear-gradient(90deg,#000000,#2D3436);
+}
