@@ -22,15 +22,18 @@
 }
 
 .is-vertical-center-desktop {
-    position: relative;
     top: 35% !important;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-.heading {
-    font-family: 'Varela Round', sans-serif;
+.headings {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    font-family: 'Slabo 27px', serif;
 }
 
 .speakers {
@@ -40,7 +43,7 @@
 }
 
 .section-heading {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     padding-bottom: 1rem;
 }
