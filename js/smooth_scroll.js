@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("a[href^='#']").click(function(e) {
+    $("a[href^='.']").click(function(e) {
         e.preventDefault();
 
         var position = $($(this).attr("href")).offset().top;

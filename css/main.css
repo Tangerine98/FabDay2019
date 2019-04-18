@@ -12,7 +12,7 @@
     border-color:#81ecec;
 }
 
-#home {
+.home {
     min-height: 100vh;
 }
 
@@ -33,7 +33,7 @@
     font-family: 'Varela Round', sans-serif;
 }
 
-#events {
+.speakers {
     background: linear-gradient(90deg,#000000,#2D3436);
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -52,4 +52,8 @@
 
 footer {
     background: linear-gradient(90deg,#000000,#2D3436);
+}
+
+.events {
+    background-color: #222222;
 }

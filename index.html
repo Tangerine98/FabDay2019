@@ -2,17 +2,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DROID 2019</title>
+    <title>FabDay 2019</title>
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/timeline.css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar  landing-page  is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item  has-text-white" href="#home">DROID<span class="has-text-weight-semibold">2019</span></a>
+        <a class="navbar-item  has-text-white" href="#home">FABDAY<span class="has-text-weight-semibold">2019</span></a>
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -23,15 +24,16 @@
       <div id="navbar" class="navbar-menu">
         <div class="navbar-end">
 	        <div class="navbar-start pullDown">
-            <a class="navbar-item has-text-white has-text-centered" href="#home"><p>Home</p></a>
-            <a class="navbar-item has-text-white has-text-centered" href="#about"><p>About</p></a>
-            <a class="navbar-item has-text-white has-text-centered" href="#events"><p>Events</p></a>
+            <a class="navbar-item has-text-white has-text-centered" href=".home"><p>Home</p></a>
+            <a class="navbar-item has-text-white has-text-centered" href=".about"><p>About</p></a>
+            <a class="navbar-item has-text-white has-text-centered" href=".events"><p>Events</p></a>
+            <a class="navbar-item has-text-white has-text-centered" href=".speakers"><p>Specialists</p></a>
           </div>
         </div>
       </div>
     </nav>
 
-    <section  id="home" class="hero landing-page has-text-centered is-family-monospace">
+    <section class="hero landing-page has-text-centered is-family-monospace home">
       <div class="container hero-body">
         <h1 class="title has-text-white is-size-1 is-vertical-center-mobile is-vertical-center-desktop heading" style="padding-top:3rem;">
           FAB DAY 2019
@@ -46,7 +48,7 @@
       </div>
     </section>
 
-    <section id="about">
+    <section class="about">
       <div class="parallax">
         <div class="container">
           <div class="columns" style="padding-bottom:3rem;padding-top:3rem;">
@@ -59,9 +61,85 @@
       </div>
     </section>
 
-    <section id="events">
+    <section class="events" style="background-color: #222222">
+      <div class="container" style="padding-top: 3rem;">
+        <div id="timeline">
+		      <ul id="dates">
+			      <li><a class="timeline-link" href="#1900" class="selected">1900</a></li>
+			      <li><a class="timeline-link" href="#1930">1930</a></li>
+			      <li><a class="timeline-link" href="#1944">1944</a></li>
+			      <li><a class="timeline-link" href="#1950">1950</a></li>
+			      <li><a class="timeline-link" href="#1971">1971</a></li>
+			      <li><a class="timeline-link" href="#1977">1977</a></li>
+			      <li><a class="timeline-link" href="#1989">1989</a></li>
+			      <li><a class="timeline-link" href="#1999">1999</a></li>
+			      <li><a class="timeline-link" href="#2001">2001</a></li>
+			      <li><a class="timeline-link" href="#2011">2011</a></li>
+		      </ul>
+
+          <ul id="issues">
+            <li id="1900" class="selected">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/1.png" />
+              <h1>1900</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1930">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/2.png" />
+              <h1>1930</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1944">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/3.png" />
+              <h1>1944</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1950">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/4.png" />
+              <h1>1950</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1971">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/5.png" />
+              <h1>1971</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1977">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/6.png" />
+              <h1>1977</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1989">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/7.png" />
+              <h1>1989</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="1999">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/8.png" />
+              <h1>1999</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="2001">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/9.png" />
+              <h1>2001</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+            <li id="2011">
+              <img src="http://www.csslab.cl/ejemplos/timelinr/latest/images/10.png" />
+              <h1>2011</h1>
+              <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+            </li>
+          </ul>
+          <div id="grad_top"></div>
+          <div id="grad_bottom"></div>
+          <a class="timeline-link" href="#" id="next">+</a>
+          <a class="timeline-link" href="#" id="prev">-</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="speakers">
       <div class="container" style="padding-top:3rem;">
-        <div class="title has-text-centered section-heading" style="color:#81ecec;">Events</div>
+        <div class="title has-text-centered section-heading" style="color:#81ecec;">Specialists</div>
 
         <div class="columns">
           <div class="column is-one-fifth">
@@ -161,5 +239,7 @@
     <script src="js/navbar.js"></script>
     <script src="js/smooth_scroll.js"></script>
     <script src="js/landing-page.js"></script>
+    <script src="js/jquery.timelinr-0.9.54.js"></script>
+    <script src="js/events.js"></script>
   </body>
 </html>
