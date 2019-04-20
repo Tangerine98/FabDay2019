@@ -32,32 +32,40 @@ h2 {
 #timeline {
   width: 80%;
   height: 80vh;
-  overflow: hidden;
+  overflow-y: hidden;
+  /*
   margin: 40px auto;
+  */
   position: relative;
   padding-bottom: 2rem;
+  /*
   background: url("http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif")
     3px top repeat-y;
+  */
 }
 #dates {
   width: 200px;
   height: 600px;
-  overflow: hidden;
+  overflow-y: hidden;
   float: left;
+  /*
+  margin: 40px auto;
+  position: relative;
+  padding-bottom: 2rem;
+  */
+  background: url("http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif")
+    3px top repeat-y;
 }
 #dates li {
   list-style: none;
   width: 200px;
   height: 200px;
-  /*
-  line-height: 45px;*/
   font-size: 20px !important;
   padding-left: 10px;
   background: url("http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png")
     left center no-repeat;
 }
 #dates a {
-/*  line-height: 18px;*/
   padding-bottom: 10px;
 }
 #dates .selected {
@@ -65,13 +73,15 @@ h2 {
 }
 
 #issues {
+  max-width: 100vw;
   width: 600px;
   height: 600px;
-  overflow: hidden;
+  overflow-y: hidden;
   float: left;
 }
 #issues li {
-  max-width: 600px; /* width: 400px; */
+  max-width: 100vw;
+  width: 600px;
   height: 600px;
   list-style: none;
   text-align: center; /* add */
@@ -86,7 +96,7 @@ h2 {
 }
 #issues li p {
   font-size: 24px;
-  margin: 20px 50px;
+  margin: 10px 50px;
   font-weight: normal;
   /*
   line-height: 22px;*/
@@ -137,6 +147,10 @@ h2 {
 #next.disabled,
 #prev.disabled {
   opacity: 0.2;
+}
+
+.timeline-in-mobile {
+  display: none;
 }
 
 /*
