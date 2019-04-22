@@ -60,3 +60,13 @@ footer {
 .events {
     background-color: #222222;
 }
+
+.venue {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
