@@ -39,6 +39,9 @@ h1 {
   font-weight: 100;
   font-size: 1.4em;
 }
+.timeline h6 {
+  font-size: 0.8em;
+}
 .timeline .event {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   padding-bottom: 25px;
